@@ -1,0 +1,44 @@
+body {
+    background-color: #212121;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #F44336;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}

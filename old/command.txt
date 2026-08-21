@@ -1,0 +1,25 @@
+ls - посмотреть содержимое папки
+
+pwd - путь рабочей  дириктории
+
+cd "name_dir" - переместиться из рабочей дириктории в дирикторию
+с именем "name_dir"
+
+cd .. - вернуться на папку выше
+
+python "name_file" - запустить файл в питоне с именем "name_file"
+
+python --version - узнать версию python
+
+python -m venv .venv  - создать виртуальное окружение с именем ".venv"
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+.\.venv\bin\Activate.ps1 - запуск виртуального окружения
+source .venv\bin\activate - MacOS
+
+pip install "NAMELIB" - установка библиотеки с названием NAMELIB
+
+pip uninstall gigachat pydantic -y   
+pip install "gigachat<0.2" "pydantic<2"
+
